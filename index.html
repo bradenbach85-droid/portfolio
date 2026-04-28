@@ -1,72 +1,137 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Phoenix editor</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-    </head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Braden Bach Portfolio</title>
 
-    <body onload="onPageLoaded()">
-        <img id="starsLeft" alt="stars" src="images/stars-left.svg" />
-        <div id="mainDiv">
-            <img id="logo" alt="logo" src="images/phoenix-logo.svg" />
-            <div id="MainText">
-                <h1>Phoenix Code</h1>
-                <span>Click here to locate this &lt;span&gt; in the HTML file<br /></span><br />
-            </div>
-            <div class="video-container">
-                <a
-                    href="https://www.youtube.com/@phoenixcodeeditor3764"
-                    target="_blank"
-                    title="Phoenix YouTube Channel"
-                    class="phcode-no-lp-edit">
-                    <img
-                        src="images/youtube_video.png"
-                        alt="Phoenix Code on YouTube"
-                        title="Phoenix Code on YouTube"
-                        style="max-width: 320px" />
-                </a>
-                <img src="images/play.svg" class="play-button phcode-no-lp-edit" style="width: 64px;" alt="play">
-            </div>
-        </div>
-        <img id="cloudLeftTop" alt="cloud" src="images/vector-top-left.png" />
-        <img id="cloudBottomRight" alt="cloud" src="images/vector-bottom-right.png" />
-        <img id="starsRight" alt="stars" src="images/stars-right.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 3; transform: translate(0px, -1.55909px)"
-            src="images/cloud1.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 6; transform: translate(0px, -2.33863px)"
-            src="images/cloud2.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 5; transform: translate(0px, -3.89772px)"
-            src="images/cloud3.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 6; transform: translate(0px, -3.89772px)"
-            src="images/cloud4.svg" />
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-    </body>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    background: black;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+section {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #22c55e;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h1>Braden Bach</h1>
+<p>TCU Football Player | Student | Musician</p>
+
+<p>
+I am a student athlete at TCU and this is my first semester in college as an early graduate. 
+This portfolio shows my work, growth, and what I learned this semester.
+</p>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+
+<div class="card">
+<p>
+I play football at TCU and have learned how to stay disciplined and manage my time.
+</p>
+
+<p>
+I also love music. I play drums and piano and enjoy creating music in my free time.
+</p>
+
+<p>
+I like frisbee golf and spending time with my family.
+</p>
+
+<p>
+My brother lives in Oregon and trains police officers. My sister is a middle school teacher. 
+My parents both work at a church and have helped shape who I am.
+</p>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects & Reflections</h2>
+
+<div class="card">
+<h3>Tech Conference Project</h3>
+<p>
+I studied tools like Figma and Headspace. I learned that working with others and taking care of mental health both matter for success.
+</p>
+</div>
+
+<div class="card">
+<h3>Technology Inventory</h3>
+<p>
+I looked at all the technology I use daily. I realized I needed better tools for recovery and started using WHOOP to track my performance.
+</p>
+</div>
+
+<div class="card">
+<h3>AI Project</h3>
+<p>
+I compared different AI tools and learned how prompts change responses. I also learned about risks like bias and overuse.
+</p>
+</div>
+
+<div class="card">
+<h3>Football Story Project</h3>
+<p>
+I created a project about my journey to TCU football. It showed how hard work and staying consistent helped me reach my goals.
+</p>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<div class="card">
+<p>Email: your-email@email.com</p>
+<p>Instagram: yourhandle</p>
+</div>
+</section>
+
+</body>
 </html>
